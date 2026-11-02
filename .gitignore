@@ -1,0 +1,44 @@
+# Secrets
+.env
+*.key
+*secret*
+*token*
+*.pem
+
+# Build artifacts
+*.log
+build.log
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large downloads (don't commit)
+analysis/
+downloads/
+*.tar.gz
+*.zip
+
+# USB mount (don't commit the mounted USB)
+AETHER/
+AETHER USB/
